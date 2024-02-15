@@ -165,7 +165,7 @@
 
     
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUgsMTFYVt8-AISZoHsjovjufVf4cTS2U&callback=initMap&libraries=places&v=weekly"
+      src=""
       async
     ></script>
 
