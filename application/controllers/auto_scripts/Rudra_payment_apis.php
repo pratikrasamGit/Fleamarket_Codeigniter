@@ -257,8 +257,7 @@ class Rudra_payment_apis extends CI_Controller
 
             require_once('application/libraries/stripe-php/init.php');
         
-            \Stripe\Stripe::setApiKey('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');
-            // \Stripe\Stripe::setApiKey('sk_test_51KKqN2Bqk2bdo0pu9GuifIJwKHpQLy2eThwaKncJk88i7qR3cdEU9jUyAnDWu9tl1r2jpQy8DNBvnXjogyIWlxN200YaF5tDiR');
+            \Stripe\Stripe::setApiKey('');
 
             // Use an existing Customer ID if this is a returning customer.
             $customer = \Stripe\Customer::create(
