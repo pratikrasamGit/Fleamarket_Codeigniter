@@ -1012,7 +1012,7 @@ class Rudra_user_apis extends MY_Controller
                 if($details){
 
                     $token = sha1(mt_rand(1, 90000) . 'SALT');
-                    $pass = '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'; 
+                    $pass = ''; 
 
                     $url = 'https://api.sendgrid.com/';
                     $data['token'] = $token;
